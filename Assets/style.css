@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Section Styles */
+
+
+header{
+    width: 100%;
+    background-color: #E554731A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-info{
+    align-items: center;
+}
+.header-title{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 700;
+    max-width: 708px;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 708px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header-btn{
+    display: inline-flex;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
