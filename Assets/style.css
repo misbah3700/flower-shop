@@ -44,3 +44,90 @@ header{
     border: none;
     cursor: pointer;
 }
+
+/* Feature Section Style */
+.feature{
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 600px;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.featured-flowers{
+    width: 420px;
+    height: 530px;
+    text-align: center;
+    border-radius: 210px 210px 0px 0px;
+    position: relative;
+}
+.pink{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.blue{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.green{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.featured-flowers > img{
+    height: 428px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  transform: translateX(-50%);
+}
+.blue > img{
+    bottom: 40px;
+}
+.flower-title-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.flower-title{
+    width: 420px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.service-container{
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.service-div{
+    height: 250px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.services{
+    text-align: center;
+}
